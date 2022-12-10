@@ -1,0 +1,137 @@
+.hero-pic {
+  padding-bottom: 200px;
+  height: 620px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/exhibition-1863344_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* .logo-sm {
+  background-image: url(/logo-1.png);
+  height: 180px;
+  width: 180px;
+}
+
+.logo-sm-2 {
+  background-image: url(/logo-text.png);
+  width: 250px;
+  height: 120px;
+} */
+
+.logo-position {
+  display: grid;
+  grid-template-rows: auto;
+  align-content: stretch;
+  padding: 100px;
+  justify-items: stretch;
+  justify-content: space-around;
+}
+
+.logo-position-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-top {
+  width: 380px;
+}
+
+.text-top-2 {
+  list-style-type: none;
+  background-color: var(--green);
+  border-radius: 45px;
+  width: 350px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.half-line {
+  width: 50%;
+}
+.info-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  background-color: var(--green);
+  border-radius: 45px;
+  width: 350px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+li {
+  padding: 5px;
+  list-style-type: none;
+}
+
+.outside-pic {
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.homepage-upper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.main-left-side,
+.main-right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.opning-hours-homepage {
+  padding-bottom: 50px;
+}
+
+.text-bottom-left {
+  width: 450px;
+}
+.image-line {
+  width: 60%;
+  margin-left: auto;
+}
+
+.science-gril {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+
+.footer-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.small-logo {
+  height: 100px;
+  width: 100px;
+}
